@@ -2,28 +2,28 @@ import React, { useState } from "react";
 import "./home.style.css";
 
 const Home = () => {
-  const [light, setLight] = useState("");
+  const [lightColor, setLightColor] = useState("");
 
   return (
     <div className="grandfather">
       <div className="father bg-black rounded">
         <div
           className={`traffic bg-danger rounded-circle ${
-            light === "red" ? "shine" : ""
+            lightColor === "red" ? "shine" : ""
           }`}
-          onClick={() => setLight("red")}
+          onclick={() => setLightColor("red")}
         ></div>
         <div
-          className={`traffic bg-danger rounded-circle ${
-            light === "yellow" ? "shine" : ""
+          className={`traffic bg-warning rounded-circle ${
+            lightColor === "yellow" ? "shine" : ""
           }`}
-          onClick={() => setLight("yellow")}
+          onclick={() => setLightColor("yellow")}
         ></div>
         <div
-          className={`traffic bg-danger rounded-circle ${
-            light === "green" ? "shine" : ""
+          className={`traffic bg-success rounded-circle ${
+            lightColor === "green" ? "shine" : ""
           }`}
-          onClick={() => setLight("green")}
+          onclick={() => setLightColor("green")}
         ></div>
       </div>
     </div>
