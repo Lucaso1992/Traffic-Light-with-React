@@ -9,11 +9,16 @@
   flex-direction: column;
 }
 
+.shine {
+  box-shadow: 1px 1px 40px 20px rgb(247, 255, 185);
+}
+
+.lighters-top {
+  width: 25px;
+  height: 60px;
+}
+
 .grandfather {
   display: flex;
   justify-content: center;
-}
-
-.shine {
-  box-shadow: 1px 1px 40px 20px rgb(247, 255, 185);
 }
