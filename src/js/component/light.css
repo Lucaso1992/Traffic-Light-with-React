@@ -7,6 +7,7 @@
 .father {
   display: inline-flex;
   flex-direction: column;
+  padding: 10px;
 }
 
 .shine {
@@ -20,5 +21,12 @@
 
 .grandfather {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pole {
+  width: 25px;
+  height: 50px;
+  background-color: black;
 }

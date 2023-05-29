@@ -3,9 +3,11 @@ import "./light.css";
 
 const Light = () => {
   const [lightColor, setLightColor] = useState("");
+  console.log(lightColor);
 
   return (
     <div className="grandfather">
+      <div className="pole"></div>
       <div className="father bg-black rounded">
         <div
           className={`traffic bg-danger rounded-circle ${
